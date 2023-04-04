@@ -64,3 +64,58 @@ users = {
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
+
+# print(users["Jonathan"] ["twitter"])
+
+# print(users["Erik"] ["home_town"])
+
+# print(users["Erik"] ["lottery_numbers"])
+
+# print(users["Avril"] ["pets"]) - Cant figure out how to gdt it to not say the name too
+
+# erik_lottery_numbers = [18, 34, 8, 11, 24]
+# smallest_number = min(erik_lottery_numbers)
+# print(smallest_number)  
+
+
+# avril_lottery_numbers = [num for num in (users["Avril"]["lottery_numbers"])if num % 2 == 0]
+# print(avril_lottery_numbers)
+
+
+# erik_lottery_numbers = [18, 34, 8, 11, 24]
+
+# erik_lottery_numbers.insert(0,"7")
+
+# print(erik_lottery_numbers)
+
+Erik_info = {
+    "twitter": "eriksf",
+    "lottery_numbers": [18, 34, 8, 11, 24],
+    "home_town": "Linlithgow",
+    "pets": [{
+      "name": "nemo",
+      "species": "fish"
+    },
+    {
+      "name": "kevin",
+      "species": "fish"
+    },
+    {
+      "name": "spike",
+      "species": "dog"
+    },
+    {
+      "name": "rupert",
+      "species": "parrot"
+    }
+  ]
+  }
+
+Erik_info ["hometown"]= "edinburgh"
+
+# print (Erik_info)
+
+
+
+
+
