@@ -24,6 +24,21 @@ numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 #
 #    So [5, 13, 2] would have sum of 5. 
 
+even_numbers = []
+
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+
+# print(even_numbers)
+
+largest = max(numbers)
+smallest = min(numbers)
+
+difference = largest - smallest
+
+# print(difference) 
+
 
 
 
